@@ -1,4 +1,9 @@
 spring:
+  webflux:
+    base-path: /api/coffees
+  data:
+    mongodb:
+      port: 41641
   mongodb:
     embedded:
       version: 3.6.5
